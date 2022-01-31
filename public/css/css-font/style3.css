@@ -1,0 +1,45 @@
+.num-list {
+    position: absolute;
+    padding: 0.2rem;
+    background: #f10;
+    color: #fff;
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    padding: 0.2rem 1rem;
+    color: #fff;
+    background-color: #eda85e;
+}
+.nav-pills .nav-link {
+    padding: 0.2rem 1rem;
+    border-radius: .25rem;
+    border: 1px solid #ddd;
+}
+ 
+@media (max-width: 780px) {
+    .borderBottom-nav {display: none;}  
+    .text-product1 {
+        width: 160px;
+    } 
+}
+
+@media (max-width: 380px) {
+    .text-product1 {
+        width: 140px;
+    } 
+}
+@media (max-width: 330px) {
+    .text-product1 {
+        width: 120px;
+    } 
+    .text-location { 
+        width: 245px;
+    }
+}

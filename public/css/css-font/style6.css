@@ -1,0 +1,25 @@
+.st-1 {
+    padding: 1rem; 
+    color: #FFF;
+    width: 110px;
+    border-radius: 5px;
+    background: rgb(237,168,94);
+    background: linear-gradient( 
+180deg
+, rgba(237,168,94,1) 0%, rgba(205,132,53,1) 100%);
+}
+a:hover {
+    color: #eda85e;
+    text-decoration: inherit;
+    font-weight: 300;
+}
+.border-002{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media (max-width: 780px) {
+    .borderBottom-nav {display: none;} 
+    .border-002 {border: 0;}
+}

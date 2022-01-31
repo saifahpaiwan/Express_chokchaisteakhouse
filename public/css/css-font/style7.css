@@ -1,0 +1,16 @@
+.jq-toast-wrap.top-right {
+            top: 5px;
+            right: 5px;
+        }
+        .qty{
+            position: absolute;
+            top: 0;
+            background: #f44336;
+            color: #FFF;
+            padding: 0 0.5rem;
+            border-radius: 5px;
+        }
+        @media (max-width: 780px) {
+            .wd-mob {    width: 80%;}
+            .borderBottom-nav {display: none;}  
+        } 

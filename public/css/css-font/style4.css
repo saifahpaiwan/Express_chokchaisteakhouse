@@ -1,0 +1,40 @@
+.box-add {
+    padding: 1rem;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+.custom-file-upload {
+    border: 1px solid #ec9e5e;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #ec9e5e;
+    border-radius: .25rem;
+}
+input[type="file"] {
+    display: none;
+}
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.jq-toast-wrap.top-right {
+    top: 5px;
+    right: 5px;
+}
+@media (max-width: 780px) {
+    .borderBottom-nav {display: none;} 
+}
